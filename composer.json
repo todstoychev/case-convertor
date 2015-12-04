@@ -1,30 +1,34 @@
 {
-  "name": "todstoychev/case-convertor",
-  "type": "library",
-  "description": "Came to snake case and snake to camel case convertor",
-  "keywords": [
-    "snake",
-    "camel",
-    "case",
-    "convertor"
-  ],
-  "homepage": "https://github.com/todstoychev/case-convertor",
-  "license": "MIT",
-  "authors": [
-    {
-      "name": "Todor Todorov",
-      "email": "todstoychev@gmail.com"
+    "name": "todstoychev/case-convertor",
+    "type": "library",
+    "description": "Camel to snake case and snake to camel case convertor",
+    "keywords": [
+        "snake",
+        "camel",
+        "case",
+        "convertor"
+    ],
+    "homepage": "https://github.com/todstoychev/case-convertor",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Todor Todorov",
+            "email": "todstoychev@gmail.com"
+        }
+    ],
+    "support": {
+        "email": "todstoychev@gmail.com"
+    },
+    "require": {
+        "php": ">=5.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.8.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Todstoychev\\CaseConvertor\\": "src/",
+            "Todstoychev\\CaseConvertor\\Tests\\": "tests/"
+        }
     }
-  ],
-  "support": {
-    "email": "todstoychev@gmail.com"
-  },
-  "require": {
-    "php": ">=5.3"
-  },
-  "autoload": {
-    "psr-4": {
-      "Todstoychev\\CaseConvertor\\": "src/"
-    }
-  }
 }
