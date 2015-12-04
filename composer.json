@@ -1,7 +1,7 @@
 {
     "name": "todstoychev/case-convertor",
     "type": "library",
-    "description": "Came to snake case and snake to camel case convertor",
+    "description": "Camel to snake case and snake to camel case convertor",
     "keywords": [
         "snake",
         "camel",
