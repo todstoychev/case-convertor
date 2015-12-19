@@ -36,8 +36,10 @@ class ConvertorTest extends \PHPUnit_Framework_TestCase
      */
     public function testSnakeToCamelCase()
     {
+        $convertor = new Convertor();
+
         foreach ($this->data as $snakeCase => $camelCase) {
-            $string = Convertor::snakeToCamelCase($snakeCase);
+            $string = $convertor->snakeToCamelCase($snakeCase);
             
             $this->assertEquals($camelCase, $string);
         }
@@ -48,9 +50,11 @@ class ConvertorTest extends \PHPUnit_Framework_TestCase
      */
     public function testCamelToSnakeCase()
     {
+        $convertor = new Convertor();
+
         foreach ($this->data as $snakeCase => $camelCase)
         {
-            $string = Convertor::camelToSnakeCase($camelCase);
+            $string = $convertor->camelToSnakeCase($camelCase);
             
             $this->assertEquals($snakeCase, $string);
         }

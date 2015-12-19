@@ -23,7 +23,7 @@ class Convertor
      * 
      * @return string
      */
-    public static function snakeToCamelCase($string)
+    public function snakeToCamelCase($string)
     {
         $matches = [];
         
@@ -50,7 +50,7 @@ class Convertor
      * 
      * @return string
      */
-    public static function camelToSnakeCase($string)
+    public function camelToSnakeCase($string)
     {
         $matches = [];
         
